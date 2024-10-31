@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    background-image: url(assets/body.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sub-title{
+    line-height: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: chocolate;
+}
+.text-center{
+    text-align: center;
+}
+.error{
+    padding: 2%;
+    color: red;
+}
+.success{
+    padding: 2%;
+    color: green;
+}
+.btn{
+    text-decoration: none;
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: bisque;
+    color: brown;
+    border-bottom: solid;
+    border-color: brown;
+}
+.btn:hover{
+    text-decoration: none;
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: beige;
+    color: brown;
+    border-bottom: solid;
+    border-color: brown;
+}
+.btn:active{
+    text-decoration: none;
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: brown;
+    color: bisque;
+    border-bottom: solid;
+    border-color: brown;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/*CSS for login*/
+.login-content{
+    text-align: center;
+    background-color: chocolate;
+    border-bottom: solid;
+    border-radius: 5px;
+    border-color: brown;
+    width: 20%;    
+    margin: 5% auto;
+    padding: 3%;
+}
+.login-content input[type="text"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+.login-content input[type="password"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+/*CSS for login*/
+
+/* CSS for navbar section */
+.navbar-username{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+.navbar-options{
+    line-height: 60px;
+}
+.navbar-options ul{
+    list-style-type: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: right;
+    border-bottom: solid;
+    border-color: chocolate;
+}
+.navbar-options ul li{
+    display: inline;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    padding: 1%;
+    background-color: chocolate;
+    border-radius: 8%;
+    font-weight: bold;
+    border-bottom: solid;
+    border-color: brown;
+}
+.navbar-options ul li a{
+    font-size: 130%;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3 ease
+}
+.navbar-options ul li:hover{
+    background-color: orangered;
+    color: white;
+    border-bottom-color: brown;
+}
+.navbar-options ul li:active{
+    background-color: brown;
+}
+.banner{
+    background-color: chocolate;
+    height: 100px;
+    border-bottom: solid;
+    border-color: brown;
+}
+/* CSS for navbar section */
+
+/* CSS for search bar */
+.painting-search{
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 200px;
+    text-align: center;
+    background-color: chocolate;
+    border-bottom: solid;
+    border-color: brown;
+}
+.painting-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+/* CSS for search bar */
+
+/*CSS for main page*/
+.dashboard{
+    margin-bottom: 5%;
+}
+.dashboard-content {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.dashboard-content-box{
+    width: 30%;
+    margin: 1%;
+    padding: 1%;
+    padding-top: 2%;
+    text-align: center;
+    border-bottom: solid;
+    border-color: bisque;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.dashboard-content-data{
+    border-bottom: solid;
+    border-color: chocolate;
+}
+.dashboard-content-label{
+    font-size:  50%;
+}
+/* CSS for main page*/
+
+/* CSS for manage admin */
+.admin-list{
+    margin-top: 1%;
+}
+.admin-box{
+    float: left;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 1%;
+    border-bottom: solid;
+    border-radius: 15px;
+    background-color: whitesmoke;
+}
+.admin-box-info{
+    width: 80%;
+    line-height: 200%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 50%;
+    text-align: left;
+}
+.admin-box-button{
+    margin-right: 3%;
+}
+/* CSS for manage admin */
+
+/* CSS for add admin */
+.add-admin-form{
+    background-color: burlywood;
+    padding: 5%;
+    padding-left: 40%;
+    font-size: 120%;
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+}
+table tr td{
+    padding: 3%;
+}
+.add-admin-form input[type="text"]{
+    width: 150%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+.add-admin-form input[type="password"]{
+    width: 150%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+/* CSS for add admin */
+
+/* CSS for approve painters */
+.painters{
+    margin-top: 5%;
+    border-top: solid;
+    border-color: bisque;
+    background-color: beige;  
+}
+.painter-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float:left;
+    background-color: white;
+    border-radius: 15px;
+}
+.painter-profile-image{
+    width: 20%;
+    float: left;
+}
+.painter-info{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+/* CSS for approve painters */
+
+/* CSS for painter */
+.painter-page-box{
+    width: 94%;
+    margin: 1%;
+    padding: 2%;
+    float:left;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+.painter-page-profile-image{
+    width: 40%;
+}
+.painter-page-image{
+    width: 50%;
+    float: left;
+}
+.painter-page-image img{
+    margin-bottom: 2%;
+}
+.painter-page-info{
+    width: 40%;
+    line-height: 230%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 2%;
+    border-left: solid;
+    border-color: chocolate;
+    font-size: 260%;
+    text-align: left;
+}
+/* CSS for painter */
+
+/* CSS for approve paintings */
+.approve-painting-list{
+    margin-top: 5%;
+    border-top: solid;
+    border-color: bisque;
+    background-color: beige;  
+}
+.approve-painting-list-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float:left;
+    background-color: white;
+    border-radius: 15px;
+}
+.approve-painting-list-image{
+    width: 20%;
+    float: left;
+}
+.approve-painting-list-info{
+    width: 70%;
+    line-height: 200%;
+    float: left;
+    margin-left: 5%;
+    font-size: 30%;
+    text-align: left;
+}
+.approve-painting-list-info a{
+    margin-right: 3%;
+}
+/* CSS for approve paintigs */
+
+/* CSS for item */
+.item-content{
+    background-color: beige;
+}
+.item-box{
+    width: 94%;
+    margin: 1%;
+    padding: 2%;
+    float:left;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+.item-image{
+    width: 50%;
+    float: left;
+}
+.item-info{
+    width: 40%;
+    line-height: 230%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 2%;
+    border-left: solid;
+    border-color: chocolate;
+    font-size: 200%;
+    text-align: left;
+}
+/* CSS for item */
+
+/*CSS for footer*/
+.footer-content{
+    line-height: 60px;
+    text-align: center;
+    background-color: chocolate;
+    border-bottom: solid;
+    border-color: brown;
+}
+/*CSS for footer*/

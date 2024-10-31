@@ -1,0 +1,519 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    padding-top: 5%;
+    padding-bottom: 3%;
+    background-image: url(assets/body.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sub-title{
+    line-height: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: chocolate;
+}
+.error{
+    padding: 2%;
+    color: red;
+}
+.success{
+    padding: 2%;
+    color: green;
+}
+.text-center{
+    text-align: center;
+}
+.btn{
+    text-decoration: none;
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: bisque;
+    color: brown;
+    border-bottom: solid;
+    border-color: brown;
+}
+.btn:hover{
+    text-decoration: none;
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: beige;
+    color: brown;
+    border-bottom: solid;
+    border-color: brown;
+}
+.btn:active{
+    text-decoration: none;
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    background-color: brown;
+    color: bisque;
+    border-bottom: solid;
+    border-color: brown;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+/*CSS for login*/
+.login-content{
+    text-align: center;
+    background-color: chocolate;
+    border-bottom: solid;
+    border-radius: 5px;
+    border-color: brown;
+    width: 20%;    
+    margin: 5% auto;
+    padding: 3%;
+}
+.login-content input[type="text"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+.login-content input[type="password"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+/*CSS for login*/
+
+/* CSS for navbar section */
+.navbar-profile-image{
+    margin-left: 45%;
+    width: 10%;
+    margin-bottom: 2%;
+}
+.navbar-username{
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 3%;
+}
+.navbar-options{
+    line-height: 60px;
+}
+.navbar-options ul{
+    list-style-type: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    text-align: right;
+    border-bottom: solid;
+    border-color: chocolate;
+}
+.navbar-options ul li{
+    display: inline;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    padding: 1%;
+    background-color: chocolate;
+    border-radius: 8%;
+    font-weight: bold;
+    border-bottom: solid;
+    border-color: brown;
+}
+.navbar-options ul li a{
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3 ease
+}
+.navbar-options ul li:hover{
+    background-color: orangered;
+    color: white;
+    border-bottom-color: brown;
+}
+.navbar-options ul li:active{
+    background-color: brown;
+}
+.banner{
+    background-color: chocolate;
+    height: 100px;
+    border-bottom: solid;
+    border-color: brown;
+}
+/* CSS for navbar section */
+
+/* CSS for search bar */
+.painting-search{
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 200px;
+    text-align: center;
+    background-color: chocolate;
+    border-bottom: solid;
+    border-color: brown;
+}
+.painting-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+/* CSS for search bar */
+
+/*CSS for main page*/
+.dashboard{
+    margin-bottom: 5%;
+}
+.dashboard-content {
+    margin-top: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.dashboard-content-box{
+    width: 30%;
+    margin: 1%;
+    padding: 1%;
+    padding-top: 2%;
+    text-align: center;
+    border-bottom: solid;
+    border-color: bisque;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.dashboard-content-data{
+    border-bottom: solid;
+    border-color: chocolate;
+}
+.dashboard-content-label{
+    font-size:  50%;
+}
+/* CSS for main page*/
+
+/* CSS for paintings */
+.painter-add-painting-button{
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+.painter-paintings{
+    margin-top: 5%;
+    border-top: solid;
+    border-color: bisque;
+    background-color: whitesmoke;  
+}
+.painting-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float:left;
+    background-color: white;
+    border-radius: 15px;
+}
+.painting-image{
+    width: 20%;
+    float: left;
+}
+.painting-info{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+.painting-info h4{
+    font-size: 120%;
+    margin-bottom: 2%;
+}
+.painting-info p{
+    font-size: 110%;
+    margin-bottom: 2%;
+}
+/* CSS for paintings */
+
+/* CSS for item */
+.item-content{
+    background-color: beige;
+}
+.item-box{
+    width: 94%;
+    margin: 1%;
+    padding: 2%;
+    float:left;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+.item-image{
+    width: 50%;
+    float: left;
+}
+.item-info{
+    width: 40%;
+    line-height: 230%;
+    float: left;
+    margin-left: 3%;
+    padding-left: 2%;
+    border-left: solid;
+    border-color: chocolate;
+    font-size: 200%;
+    text-align: left;
+}
+.item-painting-journey-section{
+    text-decoration: none;
+    border-bottom: solid;
+    border-radius: 10px;
+    border-color: brown;
+    background-color: chocolate;
+    width: 100%;
+}
+.item-painting-journey-btn{
+    text-decoration: none;
+    color: black;
+}
+.item-painting-journey-section:hover{
+    background-color: orange;
+}
+.item-painting-journey-section:active{
+    background-color: orangered;
+}
+/* CSS for item */
+
+/* CSS for add paintig */
+.add-painting-form{
+    padding-left: 33%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+.add-painting-form table{
+    padding: 3%;
+    border-bottom: solid;
+    border-radius: 15px;
+    border-color: brown;
+    background-color: chocolate;
+}
+.tbl-full{
+    width: 100%;
+}
+.tbl-30{
+    width: 30%;
+}
+table tr td{
+    padding: 3%;
+}
+.add-painting-form input[type="text"]{
+    width: 100%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+.add-painting-form textarea{
+    width: 100%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+.add-painting-form input[type="number"]{
+    width: 100%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+.add-painting-form input[type="submit"]{
+    margin-top: 10%;
+    margin-left: 80%;
+    padding: 5%;
+}
+/* CSS for add painting */
+
+/* CSS for painting journey*/
+.painting-journey-add{
+    padding: 2%;
+    background-color: chocolate;
+}
+.painting-journey-add a{
+    margin-right: 1%;;
+}
+.painting-journey-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3%;
+    background-color: chocolate;
+}
+.painting-journey-box{
+    float: left;
+    border: solid;
+    border-radius: 15px;
+    border-color: brown;
+    margin-bottom: 3%;
+    padding: 3%;
+    background-color: bisque;
+}
+.painting-journey-image{
+    float: left;
+    width: 30%
+}
+.painting-journey-box-divider{
+    float: left;
+    padding-top: 40%;
+    margin-left: 3%;
+    border: solid;
+    border-radius: 15px;
+    border-color: chocolate;
+}
+.painting-journey-info{
+    float: left;
+    width: 59%;
+    border-radius: 15px;
+    margin-left: 3%;
+    padding: 2%;
+    background-color: beige;
+}
+.painting-journey-info-title{
+    text-align: center;
+    font-size: 200%;
+    border-bottom: solid;
+    border-radius: 15px;
+    border-color: brown;
+    background-color: chocolate;
+    padding: 1%;
+}
+.painting-journey-info-comment{
+    margin-top: 5%;
+    font-size: 120%;
+}
+.journey-not-found{
+    border-bottom: solid;
+    border-color: brown;
+    border-radius: 15px;
+    background-color: peachpuff;
+}
+.delete-journey-entry{
+    margin-top: 5%;
+    margin-left: 85%;
+}
+/* CSS for painting journey*/
+
+/* CSS for add journey entry*/
+.add-painting-journey-add{
+    width: 200%;
+    padding: 2%;
+    background-color: chocolate;
+}
+.add-painting-journey-add button{
+    margin-right: 2%;;
+}
+.add-painting-journey-box{
+    width: 90%;
+    float: left;
+    border: solid;
+    border-radius: 15px;
+    border-color: brown;
+    margin-bottom: 3%;
+    padding: 3%;
+    background-color: bisque;
+}
+.add-painting-journey-image{
+    text-align: center;
+    padding-top: 18%;
+    float: left;
+    width: 30%
+}
+.add-painting-journey-box-divider{
+    float: left;
+    padding-top: 40%;
+    margin-left: 3%;
+    border: solid;
+    border-radius: 15px;
+    border-color: chocolate;
+}
+.add-painting-journey-info{
+    float: left;
+    width: 59%;
+    border-radius: 15px;
+    margin-left: 3%;
+    padding: 2%;
+    background-color: beige;
+}
+.add-painting-journey-info-title{
+    text-align: center;
+    font-size: 200%;
+    border-bottom: solid;
+    border-radius: 15px;
+    border-color: brown;
+    background-color: chocolate;
+    padding: 1%;
+    padding-bottom: 3%;
+}
+.add-painting-journey-info-title input[type="text"]{
+    width: 90%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+.add-painting-journey-info-comment{
+    margin-top: 5%;
+    font-size: 120%;
+}
+.add-painting-journey-info-comment textarea{
+    width: 98%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+/* CSS for add journey entry*/
+
+/* CSS for history */
+.painter-list{
+    margin-top: 5%;
+    border-top: solid;
+    border-color: bisque;
+    background-color: beige;  
+}
+.history-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float:left;
+    background-color: white;
+    border-radius: 15px;
+}
+.history-image{
+    width: 20%;
+    float: left;
+}
+.history-info{
+    width: 50%;
+    line-height: 200%;
+    float: left;
+    margin-left: 5%;
+    font-size: 100%;
+    text-align: left;
+}
+/* CSS for history */
+
+/*CSS for footer*/
+.footer-content{
+    line-height: 60px;
+    text-align: center;
+    background-color: chocolate;
+    border-bottom: solid;
+    border-color: brown;
+}
+/*CSS for footer*/
